@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to my page</h1>
+    <p1>Learning to create tables,list and forms</p1>
+  <ol type="i">
+    <li>Name</li>
+    <li>Email</li>
+    <li>Date</li>
+    <li>Password</li>
+
+  </ol>
+    <img src="https://images.pexels.com/photos/31237907/pexels-photo-31237907/free-photo-of-cozy-reading-scene-with-tea-and-flowers.jpeg"  width="500px" height="500px"  alt="pexels.com image">
+    <table border="1">
+        <thead>
+            <th>Name</th>
+            <th>Adress</th>
+            <th>Mobile</th>
+            <th> Emails</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Irene</td>
+                <td>Umoja</td>
+                <td>070265703</td>
+                <td>irenenditi1@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>Kikuyu</td>
+                <td>07900142452</td>
+                <td>mariananpeters@009</td>
+            </tr>
+            <tr>
+                <td>Dallah</td>
+                <td>Kitegela</td>
+                <td>0101876900</td>
+                <td>dallamucina@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Reenasa</td>
+                <td>KIambu</td>
+                <td>0718908789</td>
+                <td> nditiirene2@gmail</td>
+            </tr>
+            <tr>
+                <td>Kiamni</td>
+                <td>Lavington</td>
+                <td>0105678923</td>
+                <td>anannuio@gmail.com</td>
+            </tr>
+
+        </tbody>
+    </table>
+     <fieldset>
+        <legend>Personal information</legend>
+    <label for="Name">Name:</label>
+    <input type="text" id="name" name="Name" placeholder="Enter your name" required minlength="20" maxlength="40">
+    <label for="Email">Email:</label>
+    <input type="Email" id="Email" name="Email" placeholder="example@gmail.com" required minlength="6" maxlength="10">
+    <label for="password">Password:</label>
+    <input type="text" id="Password" name="Password" placeholder="Enter your password" required minlength="6" pattern="(*?@ [A-Z a-z])" title="Must contain an uppercase ,a number and at least special character" >
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date">
+     </fieldset>
+     <fieldset>
+        <legend>Additional information</legend>
+        <select>
+            <option value="US">United States</option>
+            <option value="Uk">United Kingdom</option>
+        </select>
+     </fieldset>
+     <label>Gender</label>
+     <input type="radio" id="male" name="gender" value="male" required>
+     <label for="male">Male</label>
+     <input type="radio" id="female" name="gender" value="female">
+     <label for="female">Female</label>
+     <input type="radio" id="Other" name="gender" value="Other">
+     <label for="other">Other</label>
+     <input type="radio" id="prefer not to say" name="gender" value="Prefer not to say">
+     <label for="prefer not to say"> Prefernot to say</label>
+     <div>
+    <label>Interests (Select all that apply)</label>
+     <input type="checkbox" id="sports" name="interests" value="sports">
+     <label for="sports">Sports</label>
+     <input type="checkbox" id="music" name="interests" value="music">
+     <label for="music">Music</label>
+     </div>
+     <div>
+        <button type="submit">Register</button>
+     </div>
+
+</body>
+</html> 
